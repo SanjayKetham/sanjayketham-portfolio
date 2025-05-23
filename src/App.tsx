@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection';
 import ProjectsSection from './components/ProjectsSection';
 import ExperienceSection from './components/ExperienceSection';
 import InternshipsSection from './components/InternshipsSection';
+import HackScroll from './components/HackScroll';
 import HackathonsSection from './components/HackathonsSection';
 import AboutSection from './components/AboutSection';
 import ContactSection from './components/ContactSection';
@@ -34,6 +35,7 @@ function App() {
         <ProjectsSection />
         <ExperienceSection />
         <InternshipsSection />
+        <HackScroll />
         <HackathonsSection />
         <AboutSection />
         <ContactSection />
