@@ -238,11 +238,11 @@ const ProjectsSection = () => {
 
   return (
     <SectionContainer id="project">
-      <SectionTitle>Celebrations</SectionTitle>
+      <SectionTitle className='dark:text-white'>Celebrations</SectionTitle>
       <ProjectContainer>
         <ProjectImage src={currentProject.imgSrc} alt={currentProject.title} />
         <ProjectTitle>{currentProject.title}</ProjectTitle>
-        <ProjectDescription>{currentProject.description}</ProjectDescription>
+        <ProjectDescription className='dark:text-white'>{currentProject.description}</ProjectDescription>
         <ProjectLink href={currentProject.githubLink} target="_blank" rel="noopener noreferrer">
           View on GitHub <Icon />
         </ProjectLink>
