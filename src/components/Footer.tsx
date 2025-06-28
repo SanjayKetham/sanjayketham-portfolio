@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
               KS
             </a>
             <p className="mt-2 text-gray-400">
-              Designed and built with ❤️ by Sanjay Ketham
+              Designed and built by Sanjay Ketham
             </p>
           </div>
           
